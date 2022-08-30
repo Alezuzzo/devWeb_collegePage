@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.divAll {
+    display: flex;
+    flex-direction: row;
+}
+
+.navBar {
+    background-color: #012030;
+    padding: 20px;
+    width: 100vh;
+    height: 94vh;
+}
+
+.navBar p {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: azure;
+}
+
+.item:hover {
+    font-size: 30px;
+}
+
+.itens p::first-letter {
+    color: #45C4B0;
+}
+
+.divNav {
+    background-color: #DAFDBA;
+    padding: 20px;
+    height: 93vh;
+}
+
+.div h1 {
+    margin-top: 20px;
+}
+
+.divNav ul {
+    list-style: none;
+    margin: 20px 0 20px 20px;
+}
